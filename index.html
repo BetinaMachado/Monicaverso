@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moniverso</title>
+    <link rel="stylesheet" href="../NavBar/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Moniverso</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Início<span class="sr-only">(current)</span></a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Galeria</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#monicaverso">Monicaverso</a>
+                            <a class="dropdown-item" href="#fotos">Fotos</a>
+                            <a class="dropdown-item" href="#ccxp">Monicaverso na CCXP</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#contato">Contato</a>
+                        </div>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled">Contato</a>
+                    </li> -->
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" id="busca" type="search" placeholder="Pesquisar"
+                        aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" id="btnn" onclick="return buscarTexto()"
+                        type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-2 p-0"
+                style="background-image: url(assets/images/Monibac.jpg); background-size: contain; opacity: 0.75;">
+            </div>
+
+            <div class="col-md-8 p-2">
+                <div class="mt-2 buscas">
+                    <h3 id="monicaverso">Monicaverso</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, cupiditate, suscipit praesentium
+                        delectus voluptas itaque, quos corrupti repellendus dicta quibusdam unde sunt laborum
+                        repudiandae
+                        voluptatibus commodi impedit magni! Unde, ex!</p>
+                </div>
+                <div class="mt-4 buscas">
+                    <h3 id="fotos">Fotos</h3>
+                    <!-- <h3 style="background-color:black"></h1> -->
+                    <p>Há mais de 50 anos que nossa baixinha dentucinha lançou um estilo... Cabelo curto, vestido
+                        vermelho, cara de brava... Vejamos algumas fotos ao redor do mundo....</p>
+                    <img src="https://images.pexels.com/photos/12235408/pexels-photo-12235408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="Moniverso" width="100%">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/744/915/734/lucy-hale-women-actress-brunette-short-hair-hd-wallpaper-preview.jpg"
+                        alt="Moniverso" width="100%">
+                    <img src="https://i.pinimg.com/736x/b4/cd/19/b4cd192c16913a11ba7c92aba9da1388.jpg" alt="Moniverso"
+                        width="100%">
+                    <img src="https://www.pinkvilla.com/ampstories/fashion/10-times-celebrities-slayed-short-hair-567000/assets/7.jpeg"
+                        alt="Moniverso" width="100%">
+                </div>
+                <div class="mt-4 buscas">
+                    <h3 id="ccxp">Monicaverso na CCXP</h3>
+
+                    <p>A MSP entrou na brincadeira e.... Confira..... canal xxxxxx</p>
+
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/Y7HIGha97FM"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/RL5Qw4JNXF4"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/A5f9f8b_NZg"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Próximo</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="mt-4 buscas">
+                    <h3 id="contato">Contato</h3>
+
+                    <div class="card card-nav-tabs text-left">
+                        <div class="card-header card-header-primary text-center"><b>
+                                Conhece uma Mônica do Monicaverso e quer que ela apareça aqui? Nos envie a imagem!</b>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="usr">Nome:</label>
+                                <input type="text" class="form-control" placeholder="Insira seu nome completo" id="usr">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail:</label>
+                                <input type="email" class="form-control" placeholder="Insira seu email" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="dscr">Descrição:</label>
+                                <input type="text" style="height: 100px;" class="form-control" id="dscr">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    </div>
+                                </form>
+                            </div>
+                            <button type="submit" class="btn btn-dark">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 p-0"
+                style="background-image: url(assets/images/Monibac.jpg); background-size: contain; opacity: 0.75;">
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-center text-white">
+        <div class="container p-3 pb-0">
+
+            <section class="mb-1">
+
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/turmadamonica"
+                    target="_blank" style="border-radius: 100%; border-width: 2px;" role="button"><i
+                        class="bi bi-facebook"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/TurmadaMonica"
+                    target="_blank" style="border-radius: 100%; border-width: 2px;" role="button"><i
+                        class="bi bi-twitter"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1"
+                    href="https://www.youtube.com/c/mauriciodesousaproducoes"
+                    style="border-radius: 100%; border-width: 2px;" role="button"><i class="bi bi-youtube"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1"
+                    href="https://www.instagram.com/mauriciodesousaproducoes/" target="_blank"
+                    style="border-radius: 100%; border-width: 2px;" role="button"><i class="bi bi-instagram"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/betina-machado/"
+                    target="_blank" style="border-radius: 100%; border-width: 2px;" role="button"><i
+                        class="bi bi-linkedin"></i></a>
+
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/BetinaMachado"
+                    target="_blank" style="border-radius: 100%; border-width: 2px;" role="button"><i
+                        class="bi bi-github"></i></a>
+            </section>
+
+        </div>
+
+        <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2); font-size: smaller;">
+            Esta é uma fanpage. Todos os direitos estão reservados à Mauricio de Sousa Produções ou respectivos criadores e detentores dos diretos autorais/copyright.
+        </div>
+    </footer>
+
+</body>
+<script src="assets/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
+
+</html>
